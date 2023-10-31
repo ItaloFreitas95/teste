@@ -1,0 +1,19 @@
+1) Sobre o BrowserFactory:
+é comum criar uma classe chamada BrowserFactory para gerenciar a inicialização de
+instâncias de navegadores web (como Chrome, Firefox, etc.) e as configurações associadas.
+Essa classe é usada para simplificar a criação e configuração de instâncias do WebDriver
+do Selenium
+Essa classe BrowserFactory permite alternar facilmente entre diferentes navegadores sem
+precisar repetir a configuração do WebDriver em cada parte do seu código.
+Você só precisa chamar BrowserFactory.createDriver com o nome do navegador desejado.
+
+2) Sobre Hooks
+Os "hooks" são uma técnica comum em programação para adicionar comportamentos personalizados
+em pontos específicos de um processo ou ciclo de vida. Eles são usados para estender ou
+personalizar o comportamento padrão de um sistema ou aplicativo sem modificar diretamente
+seu código fonte
+Em contextos de testes de software, "hooks" geralmente se referem a métodos ou anotações que
+permitem executar código antes ou depois de casos de teste, suítes de teste, métodos de
+configuração e encerramento de teste, etc. Por exemplo, no TestNG, as anotações @BeforeTest,
+@AfterTest, @BeforeClass, @AfterClass, @BeforeMethod, @AfterMethod são usadas como "hooks"
+para executar código em pontos específicos do ciclo de vida do teste.
