@@ -1,3 +1,3 @@
 # teste
 
-Repositório com algums exemplos de automações testes automatizados.
+Repositório com alguns exemplos de automações e testes automatizados.
